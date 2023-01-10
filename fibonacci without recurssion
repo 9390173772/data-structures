@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int firstnumber = 0, second number = 1, third number, i, number;
+printf("Enter the number for fibonacci series:");
+scanf("%d",&number);
+printf("Fibonacci Series for a given number:");
+printf("\n%d %d", first number, second number); 
+for(i = 2; i < number; ++i) 
+{
+third number = first number + second number;
+printf(" %d", third number);
+first number = second number;
+second number = third number;
+}
+return 0;
+}
